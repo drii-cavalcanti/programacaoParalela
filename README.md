@@ -5,6 +5,23 @@ Projeto 01: Crivo de Eratóstenes
 
 link: http://professor.ufabc.edu.br/~e.francesquini/2019.q1.pp/projeto01/
 
+## Preparar ambiente - Ubuntu 
+
+* **Instalar mpich**
+```bash
+sudo apt-get install mpich
+```
+
+* **Compilar**
+```bash
+mpicc main.c -o test
+```
+
+* **Testar**
+```bash
+./test
+```
+
 ## Preparar ambiente - Fedora
 
 * **Instalar openmpi**
