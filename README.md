@@ -14,7 +14,7 @@ sudo apt-get install mpich
 
 * **Compilar**
 ```bash
-mpicc main.c -o test
+mpicc test_mpi.c -o test
 ```
 
 * **Testar**
